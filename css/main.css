@@ -454,3 +454,47 @@ header a:hover{
    font-size: 16px;
   }
 }
+
+/* CART MOBILE */
+
+.cart_mobile h1 {
+ font-size: 17px;
+ margin: 10px 20px;
+ background: #736e65;
+ width: 30%;
+ border-radius: 150%;
+ padding: 10px;
+ color: white;
+}
+.grid {
+ display: none;
+}
+.grid {
+ display: none;
+ grid-template-columns: 1fr 1fr 1fr;
+}
+#t-shirt {
+ max-width: 250px;
+ margin: 0px;
+ display: block;
+ margin: auto;
+}
+.title {
+ text-align: center;
+ text-decoration: line-through;
+}
+@media(max-width:768px) {
+  .grid{
+   display: flex;
+   overflow: auto;
+   white-space: nowrap;
+  } 
+  .column {
+   display: inline-block;
+   text-align: center;
+  }
+
+}
+
+ 
+/* CART MOBILE END */
