@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Arimo:400,700&display=swap');
+.title h1 {
+    font-size: 15px;
+}
+.title h2 {
+
+    text-align: left;
+
+    font-size: 25px;
+    font-weight: bolder;
+    color: #333;
+}
+.title h3 {
+        color: #999;
+        font-size: 16px;
+    }
+
+
+.tabs {
+ text-align: end;
+}
+.tab {
+ cursor: pointer;
+ padding: 10px 20px;
+ margin: 0px 2px;
+ display: inline-block;
+ color: #000;
+ border-radius: 3px 3px 0px 0px;
+}
+.panels {
+ background: #dcd6d6f6;
+ box-shadow: 0 2rem 2rem #00000080;
+ min-height: 200px;
+ width: 100%;
+ border-radius: 3px;
+ overflow: hidden;
+ padding: 20px;
+}
+.panel{
+ display:none;
+ animation: fadein .8s;
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+.panel-title{
+ font-size:1.5em;
+ font-weight:bold
+}
+.radio{
+ display:none;
+}
+#one:checked ~ .panels #one-panel,
+#two:checked ~ .panels #two-panel,
+#three:checked ~ .panels #three-panel{
+ display:block
+}
+#one:checked ~ .tabs #one-tab,
+#two:checked ~ .tabs #two-tab,
+#one:checked ~ .tabs #one-tab, #two:checked ~ .tabs #two-tab, #three:checked ~ .tabs #three-tab {
+ background: #fffffff6;
+ color: #000;
+ border-bottom: 3px solid #F04E23;
+}
+
+.imagem_product {
+ max-width: 250px!important;
+}
+@media (max-width:768px) {
+    .imagem_product {
+     max-width: 150px!important;
+    }
+    .title h1 {
+     font-size: 25px;
+     color: #333;
+     text-align: center;
+    }
+    h2 {
+     color: #000;
+     text-align: center;
+     font-size: 11px;
+    }
+
+}
+.nameproduct {
+ max-width: 300px;
+}
+.card {
+ text-align: center;
+ max-width: 300px;
+ padding: 10px;
+}
+.cartwidth {
+ width: 90%;
+ margin: auto;
+}
+.warpper h2 {
+ position: absolute;
+}
+
+@media (max-width:1200px) {
+    .tabs {
+     text-align: center;
+     display: grid;
+    }
+    .nameproduct {
+     text-align: center;
+    }
+    .warpper h2 {
+     position: relative;
+     border-bottom: 1px solid #ecebeb;
+     font-size: 20px;
+     font-weight: bolder;
+    }
+    .panels {
+     background: #dcd6d6f6;
+     box-shadow: 0 2rem 2rem #00000080;
+     min-height: 200px;
+     width: 100%;
+     border-radius: 3px;
+     overflow: hidden;
+     padding: 20px;
+     display: contents;
+    }
+}
+
+.btn_for_cart {
+    /* background: yellow; */
+    border: 1px solid var(--info);
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: cadetblue;
+    padding: 10px;
+}
+
+.fa-shopping-cart{
+    color: #989393;
+}
