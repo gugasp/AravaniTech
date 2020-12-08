@@ -174,57 +174,86 @@
 }
 
 /* Segundo Radio Tabs */
-.width_radio {
+/* PRESENTATIONAL STYLES */
+.width_lorem {
     width: 90%;
-    margin: auto
+    margin: auto;
 }
-@import "https://fonts.googleapis.com/css?family=Open+Sans";
-/* html {
-  box-sizing: border-box;
-}
-
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
-}
-
-body {
-  font-family: 'Open Sans', sans-serif;
-} */
-
-/* .stv-radio-tabs-wrapper {
-  clear: both;
-  display: inline-block;
-  width: 100%;
-  border-bottom: 1px solid #428bca;
-  padding: 0 10px;
-  position: relative;
-} */
-
-input.stv-radio-tab {
-/*   position: absolute;
-  left: -99999em;
-  top: 0px; */
-  display: none;
-}
-input.stv-radio-tab + label {
-  cursor: pointer;
-  float: right;
-  border: 1px solid #aaa;
-  border-bottom: 0;
-  background-color: #fff;
-  margin-right: -1px;
-  padding: .5em 1em;
-  position: relative;
-}
-input.stv-radio-tab + label:hover {
-  background-color: #eee;
-}
-input.stv-radio-tab:checked + label {
-  box-shadow: 0 3px 0 -1px #fff, inset 0 5px 0 -1px #13CD4A;
-  background-color: #fff;
-  border-color: #428bca;
-  z-index: 1;
-}
+/* body {
+    background-color: #ddd;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.25em;
+    line-height: 1.5;
+  } */
+  
+  p {
+    margin-bottom: 15px;
+  }
+  
+/*   .radio-tabs .panel img {
+    margin: 0 15px;
+    width: 25%;
+  } */
+  
+  /* DEMO STYLES */
+  
+  /* Android 2.3 :checked fix */
+  @keyframes fix {
+    from {
+      opacity: 1;
+    }
+    to {
+      opactity: 1
+    }
+  }
+  
+/*   body {
+    animation: fix 1s infinite;
+  } */
+  
+  .radio-tabs .state {
+    position: absolute;
+    left: -10000px;
+  }
+  
+  #breakfast:focus ~ .tabs #breakfast-tab,
+  #dinner:focus ~ .tabs #dinner-tab,
+  #dessert:focus ~ .tabs #dessert-tab {
+    box-shadow: 0 0 3px 3px rgba(0,127,255,.5);
+  }
+  
+  .radio-tabs .tab {
+    display: inline-block;
+    padding: .5em;
+    vertical-align: top;
+    background-color: #eee;
+    cursor: hand;
+    cursor: pointer;
+  }
+  .radio-tabs .tab:hover {
+     background-color: #fff;
+  }
+  
+  #breakfast:checked ~ .tabs #breakfast-tab,
+  #dinner:checked ~ .tabs #dinner-tab,
+  #dessert:checked ~ .tabs #dessert-tab {
+    background-color: #fff;
+    border-bottom: .3em solid #fff;
+    cursor: default;
+  }
+  
+  .radio-tabs .panels {
+    background-color: #fff;
+    padding: .5em;
+  }
+  
+  .radio-tabs .panel {
+     display: none;
+  }
+  
+  #breakfast:checked ~ .panels #breakfast-panel,
+  #dinner:checked ~ .panels #dinner-panel,
+  #dessert:checked ~ .panels #dessert-panel {
+    display: inline-block;
+  }
 /* Segunda Radio Tabs End */
