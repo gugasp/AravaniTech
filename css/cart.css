@@ -170,5 +170,5 @@
  font-size: 17px;
 }
 .separate {
-    display: flex;
+    display: block;
 }
