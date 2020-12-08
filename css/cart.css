@@ -1,21 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Arimo:400,700&display=swap');
 .title h1 {
-    font-size: 15px;
+ font-size: 15px;
 }
 .title h2 {
-
-    text-align: left;
-
-    font-size: 25px;
-    font-weight: bolder;
-    color: #333;
+ text-align: left;
+ font-size: 25px;
+ font-weight: bolder;
+ color: #333;
 }
 .title h3 {
-        color: #999;
-        font-size: 16px;
-    }
-
-
+ color: #999;
+ font-size: 16px;
+}
 .tabs {
  text-align: end;
 }
@@ -67,7 +63,6 @@
  color: #000;
  border-bottom: 3px solid #F04E23;
 }
-
 .imagem_product {
  max-width: 250px!important;
 }
@@ -85,7 +80,6 @@
      text-align: center;
      font-size: 11px;
     }
-
 }
 .nameproduct {
  max-width: 300px;
@@ -128,33 +122,29 @@
      display: contents;
     }
 }
-
 .btn_for_cart {
-    /* background: yellow; */
-    border: 1px solid var(--info);
-    border-radius: 20px;
-    font-size: 16px;
-    font-weight: bold;
-    color: cadetblue;
-    padding: 10px;
+ border: 1px solid var(--info);
+ border-radius: 20px;
+ font-size: 16px;
+ font-weight: bold;
+ color: cadetblue;
+ padding: 10px;
 }
-
 .fa-shopping-cart{
-    color: #989393;
+ color: #989393;
 }
-
 .btn_cart {
-    background: var(--primary);
-    color: white;
-    padding: 10px 10px;
-    border: 1px solid var(--dark);
+ background: var(--primary);
+ color: white;
+ padding: 10px 10px;
+ border: 1px solid var(--dark);
 }
 .btn_cart a {
-    color: white;
-    font-weight: 500;
+ color: white;
+ font-weight: 500;
 }
 .title {
-    display: block;
-    text-align: center;
-    font-size: 17px;
+ display: block;
+ text-align: center;
+ font-size: 17px;
 }
