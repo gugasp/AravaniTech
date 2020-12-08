@@ -496,9 +496,9 @@ header a:hover{
 /* FOOTER */
 
 /* Footer Import */
-.footer {
+/* .footer {
   background: #EEEEEE;
- }
+ } */
  .fw90 {
   text-align: center;
   width: 90%;
@@ -507,7 +507,7 @@ header a:hover{
  .footer .fw90 {
   font-size: 16px;
   font-weight: normal;
-  color: rgb(119, 119, 119);
+  color: var(--dark);
   font-weight: 400;
  }
 /* FOOTER END */
