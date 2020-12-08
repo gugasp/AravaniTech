@@ -126,21 +126,6 @@ a:hover {
   }
 }
 
-/* Footer Import */
-.footer {
- background: #EEEEEE;
-}
-.fw90 {
- text-align: center;
- width: 90%;
- margin: auto;
-}
-.footer .fw90 {
- font-size: 14px;
- font-weight: normal;
- color: rgb(119, 119, 119);
- font-weight: 400;
-}
 /* Import Cart */
 .cartmobile {
  padding: 7px;
@@ -506,3 +491,23 @@ header a:hover{
 
  
 /* CART MOBILE END */
+
+
+/* FOOTER */
+
+/* Footer Import */
+.footer {
+  background: #EEEEEE;
+ }
+ .fw90 {
+  text-align: center;
+  width: 90%;
+  margin: auto;
+ }
+ .footer .fw90 {
+  font-size: 16px;
+  font-weight: normal;
+  color: rgb(119, 119, 119);
+  font-weight: 400;
+ }
+/* FOOTER END */
