@@ -55,7 +55,7 @@
 #one:checked ~ .panels #one-panel,
 #two:checked ~ .panels #two-panel,
 #three:checked ~ .panels #three-panel{
-    display: inline-flex;
+ display:block
 }
 #one:checked ~ .tabs #one-tab,
 #two:checked ~ .tabs #two-tab,
