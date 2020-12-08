@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Arimo:400,700&display=swap');
 .title h1 {
  font-size: 15px;
+ text-align: left;
 }
 .title h2 {
  text-align: left;
@@ -130,8 +131,8 @@
  color: cadetblue;
  padding: 10px;
 }
-.fa-shopping-cart{
- color: #989393;
+.fa-shopping-cart {
+ color: #ffffff;
 }
 .btn_cart {
  background: var(--primary);
