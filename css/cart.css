@@ -81,6 +81,9 @@
      text-align: center;
      font-size: 11px;
     }
+    .separate {
+     display: block!important;
+    }
 }
 .nameproduct {
  max-width: 300px;
@@ -122,6 +125,7 @@
      padding: 20px;
      display: contents;
     }
+    
 }
 .btn_for_cart {
  border: 1px solid var(--info);
@@ -148,4 +152,7 @@
  display: block;
  text-align: center;
  font-size: 17px;
+}
+.separate {
+    display: flex;
 }
