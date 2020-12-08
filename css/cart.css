@@ -84,15 +84,24 @@
     .separate {
      display: block!important;
     }
+    .card {
+        text-align: center;
+        max-width: 400px!important;
+        padding: 10px;
+        height: 350px!important;
+    }
 }
 .nameproduct {
  max-width: 300px;
 }
 .card {
+
  text-align: center;
- max-width: 300px;
- padding: 10px;
+    max-width: 400px;
+    padding: 10px;
+    height: 500px;
 }
+
 .cartwidth {
  width: 90%;
  margin: auto;
@@ -128,12 +137,19 @@
     
 }
 .btn_for_cart {
- border: 1px solid var(--info);
- border-radius: 20px;
- font-size: 16px;
- font-weight: bold;
- color: cadetblue;
- padding: 10px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    /* top: 1px; */
+    margin: 10px;
+    /* margin-bottom: 0px; */
+    border: 1px solid var(--info);
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: cadetblue;
+    padding: 10px;
 }
 .fa-shopping-cart {
  color: #ffffff;
