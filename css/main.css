@@ -568,3 +568,11 @@ header a:hover{
 .fa-whatsapp {
   font-size: 26px;
 }
+
+
+/* BRAND */
+.seleswidth > h1 {
+  font-size: 16px;
+  font-weight: 900;
+}
+/* END */
