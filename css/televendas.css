@@ -84,7 +84,9 @@ input 				{
   font-size:18px;
   padding:10px 10px 10px 5px;
   display:block;
-  width:300px;
+  width: 100%;
+    margin: auto;
+  /* width:300px; */
   border:none;
   border-bottom:1px solid #757575;
 }
@@ -213,5 +215,15 @@ Importando Jingle  */
 }
 .import_form {
     max-width: 300px;
+    margin: auto;
+}
+form {
+
+}
+textarea {
+    margin: auto;
+    display: block;
+    /* width: 300px; */
+    width: 100%;
     margin: auto;
 }
