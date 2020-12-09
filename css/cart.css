@@ -164,7 +164,7 @@
     padding: 10px;
 }
 .fa-shopping-cart {
- color: #ffffff;
+  color: var(--gray);
 }
 .btn_cart {
  background: var(--primary);
