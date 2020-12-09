@@ -110,6 +110,8 @@
  position: absolute;
  background: red;
  color: white;
+ border-radius: 120%;
+    padding: 20px;
  /* background: red; */
  /* width: 26%; */
 /*  color: white;
