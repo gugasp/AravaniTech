@@ -540,17 +540,6 @@ header a:hover{
 
 }
 }
-/*  .social {
-  font-size: 26px;
-  width: 50%;
-  margin: auto;
-  top: 10px;
-  position: relative;
- }
- .fa-pinterest {
-   color: red;
- } */
-/* FOOTER END */
 
 /* TELEVENDAS IMPORT */
 .contact > .largura > .text {
@@ -574,6 +563,10 @@ header a:hover{
 .seleswidth > h1 {
   font-size: 16px;
   font-weight: 900;
+  font-size: 16px;
+    font-weight: 900;
+    border-left: 1px solid var(--orange);
+    padding: 10px;
 }
 .sele_visa {
   max-width: 50px;
