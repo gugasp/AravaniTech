@@ -109,10 +109,12 @@
 .warpper h2 {
  position: absolute;
  background: red;
- width: 26%;
  color: white;
+ /* background: red; */
+ /* width: 26%; */
+/*  color: white;
  border-radius: 120%;
- padding: 20px;
+ padding: 20px; */
 }
 
 @media (max-width:1200px) {
@@ -130,12 +132,6 @@
      font-weight: bolder;
 
 
- 
-      background: red;
-      width: 100%;
-      color: white;
-      border-radius: 120%;
-      padding: 20px;
      }
     }
     .panels {
@@ -291,4 +287,15 @@
    color: white;
    padding: 9px;
   }
+  .warpper h2 {
+    background: red;
+    width: 100%;
+    color: white;
+    border-radius: 120%;
+    padding: 20px;
+  }
+
+  
+ 
+  
 }

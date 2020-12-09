@@ -83,7 +83,7 @@ a:hover {
  margin: auto;
 }
 .client a {
- box-shadow: 1px 0px #000;
+  border-right: 1px solid black;
 }
 @media (max-width:720px) {
   .wrap {
