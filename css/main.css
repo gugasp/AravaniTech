@@ -564,9 +564,10 @@ header a:hover{
   font-size: 16px;
   font-weight: 900;
   font-size: 16px;
-    font-weight: 900;
-    border-left: 1px solid var(--orange);
-    padding: 10px;
+  font-weight: 200;
+  border-left: 1px solid var(--orange);
+  padding: 10px;
+  text-transform: uppercase;
 }
 .sele_visa {
   max-width: 50px;
