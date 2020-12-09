@@ -212,6 +212,7 @@ Importando Jingle  */
 .import_formulario {
     width: 90%;
     margin: auto;
+    text-align: center;
 }
 .import_form {
     max-width: 300px;
@@ -226,4 +227,11 @@ textarea {
     /* width: 300px; */
     width: 100%;
     margin: auto;
+}
+.email{
+    text-align: center;
+    /* display: block; */
+    border: 1px solid black;
+    border-radius: 55%;
+    padding: 9px 10px;
 }
