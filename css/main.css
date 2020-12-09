@@ -551,3 +551,20 @@ header a:hover{
    color: red;
  } */
 /* FOOTER END */
+
+/* TELEVENDAS IMPORT */
+.contact > .largura > .text {
+  text-align: center;
+}
+.contact > .largura > .text a{
+  text-align: center;
+  background: #38e400;
+  padding: 20px;
+  color: white;
+  border-radius: 50px;
+  position: relative;
+  top: 20px;
+}
+.fa-whatsapp {
+  font-size: 26px;
+}
