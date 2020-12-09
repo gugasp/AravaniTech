@@ -219,14 +219,14 @@
   #breakfast:focus ~ .tabs #breakfast-tab,
   #dinner:focus ~ .tabs #dinner-tab,
   #dessert:focus ~ .tabs #dessert-tab {
-    box-shadow: 0 0 3px 3px rgba(0,127,255,.5);
+    /* box-shadow: 0 0 3px 3px rgba(0,127,255,.5); */
   }
   
   .radio-tabs .tab {
     display: inline-block;
     padding: .5em;
     vertical-align: top;
-    background-color: #eee;
+    background-color: #eee0;
     cursor: hand;
     cursor: pointer;
   }
@@ -238,7 +238,7 @@
   #dinner:checked ~ .tabs #dinner-tab,
   #dessert:checked ~ .tabs #dessert-tab {
     background-color: #fff;
-    border-bottom: .3em solid #fff;
+    border-bottom: 3px solid #F04E23;
     cursor: default;
   }
   
