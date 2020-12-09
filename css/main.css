@@ -569,6 +569,12 @@ header a:hover{
   padding: 10px;
   text-transform: uppercase;
 }
+@media (max-width:768px) {
+  .seleswidth > h1 {
+
+  font-size: 12px;
+}
+}
 .sele_visa {
   max-width: 50px;
 }
