@@ -519,24 +519,27 @@ header a:hover{
  .social_import i {
   font-size: 46px;
   color: black;
+  letter-spacing: 20px;
 }
 .social_import h1 {
   font-size: 26px;
   border-bottom: 2px solid #888383;
   width: 20%;
-  text-align: justify;
+  text-align: center;
+  
 }
 @media (max-width: 768px) {
   .social_import h1 {
     
     width: 90%;
     text-align: center;
-    font-size: 16px;
+    /* font-size: 16px!important; */
   }
   .social_import i {
     font-size: 26px!important;
     color: #736d6d!important;
     text-align: center!important;
+    letter-spacing: 20px;
 
 }
 }
