@@ -274,10 +274,11 @@ a:hover {
 .menu-expanded a {
  transition: all .15s;
  text-decoration: none;
- font-size: 2em;
+ font-size: 26px;
  padding: 5px;
  color: #fff;
  display: block;
+ margin: 0px 20px;
 }
 .menu-expanded a:hover {
  background-color: rgba(255, 255, 255, 0.8);
