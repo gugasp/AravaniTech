@@ -1,7 +1,7 @@
 .carousel-wrap {
     margin: 90px auto;
     padding: 0 5%;
-    width: 80%;
+    width: 100%;
     position: relative;
   }
   
@@ -31,3 +31,41 @@
   .owl-nav .owl-next {
     right: -30px;
   }
+
+  /* Import Settings */
+  .size {
+      width: 90%!important;
+  }
+ .btn_first_cart {
+    background: #f5deb300;
+    text-align: center;
+    display: block;
+    border: 1px solid var(--teal);
+    border-radius: 50px;
+    color: aqua;
+ }
+ .import_title_text {
+
+ }
+ .import_title_text  h1{
+    font-weight: revert;
+    border-bottom-color: 2px solid black;
+    border-bottom: 2px solid var(--teal);
+    width: 35%;
+    text-align: initial;
+}
+@media (max-width:768px) {
+    .carousel-wrap {
+        width: 80%!important;
+    }
+    .import_title_text h1 {
+        font-weight: revert;
+        border-bottom-color: 2px solid black;
+        border-bottom: 2px solid var(--teal);
+        width: 100%;
+        text-align: center;
+        font-size: 21px;
+    }
+    
+    
+}
