@@ -43,11 +43,14 @@
     display: block;
     border: 1px solid var(--teal);
     border-radius: 50px;
-    color: aqua;
+    color: var(--secondary);
     padding: 10px;
     margin: revert;
     display: block;
-    width: 95%;
+    width: 98%;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
  .import_title_text {
 
@@ -64,6 +67,9 @@
 }
 .import_x_info span {
     
+}
+.carT a {
+
 }
 @media (max-width:768px) {
     .carousel-wrap {
