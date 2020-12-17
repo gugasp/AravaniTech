@@ -71,7 +71,10 @@
 .carT:hover {
  opacity: 50%;
 }
-
+.fa-windows {
+  color: #afaab7;
+  font-weight: lighter;
+}
 @media (max-width:768px) {
     .carousel-wrap {
         width: 80%!important;
