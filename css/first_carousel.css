@@ -75,6 +75,10 @@
   color: #afaab7;
   font-weight: lighter;
 }
+.fa-gamepad {
+  color: #afaab7;
+  font-weight: lighter;
+}
 @media (max-width:768px) {
     .carousel-wrap {
         width: 80%!important;
