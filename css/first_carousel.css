@@ -35,6 +35,7 @@
   /* Import Settings */
   .size {
       width: 90%!important;
+      z-index: 2;
   }
   .btn_first_cart {
     padding: 1;
@@ -97,7 +98,7 @@
         display: block;
         border: 1px solid var(--teal);
         border-radius: 50px;
-        color: aqua;
+        color: var(--gray);
         width: 90%;
         margin: auto;
         padding: 10px;
