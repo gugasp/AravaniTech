@@ -68,9 +68,10 @@
 .import_x_info span {
     
 }
-.carT a {
-
+.carT:hover {
+ opacity: 50%;
 }
+
 @media (max-width:768px) {
     .carousel-wrap {
         width: 80%!important;
