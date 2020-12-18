@@ -585,6 +585,16 @@ header a:hover{
     border: 0;
     border-top: 1px solid rgb(0 0 0 / 0%);
   }
+  .logo_mobile {
+    position: relative;
+    top: -20px;
+    max-width: 200px;
+    margin: auto;
+    display: block;
+    font-weight: bold;
+    font-size: 18px;
+    color: #5d5959;
+  }
 }
 .sele_visa {
   max-width: 50px;
