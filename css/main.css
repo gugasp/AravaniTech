@@ -587,7 +587,7 @@ header a:hover{
   }
   .logo_mobile {
     position: relative;
-    top: -20px;
+    top: -10px;
     max-width: 200px;
     margin: auto;
     display: block;
